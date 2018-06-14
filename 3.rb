@@ -23,3 +23,8 @@ def change_possibilities(denominations, amount)
       end
   results[-1][-1]
 end
+
+
+
+#It is also possible to implement this using recursion and memoization, however the run time will be slower
+#because of repeated sub-problems and calls compared to using dynammic programming 

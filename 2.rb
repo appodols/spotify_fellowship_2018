@@ -35,5 +35,5 @@ def decode_string(s)
   result
 end
 
-
-#we can also implement this recursively
+#You can also implement this recursively, however I find it easier to outline and
+#visualize the logic iteratively
