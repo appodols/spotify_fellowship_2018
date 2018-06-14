@@ -3,6 +3,7 @@
 #Time complexity is O(da) where d = is amount of coins we have for change, and a is target amount
 # Space complexity is O(da) as well
 #It is possible to do this faster in a one dimensional array that only keeps a reference to the last row
+#which would have O(a) complexity
 #however I find this 2D array more explicit and helpful to visualize the dynammic programming
 
 
@@ -27,4 +28,4 @@ end
 
 
 #It is also possible to implement this using recursion and memoization, however the run time will be slower
-#because of repeated sub-problems and calls compared to using dynammic programming 
+#because of repeated sub-problems and calls compared to using dynammic programming
